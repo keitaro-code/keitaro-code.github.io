@@ -1,4 +1,84 @@
-h1{
-  font-size: 24px;
-  border-bottom: 2px solid ;
+/* header */
+html{
+  font-family:'Courier New', Courier, monospace;
+  background: hsl(360, 70%, 80%);
+  color: white;
+  text-align: center;
 }
+h1{
+  font-size: 24px;  
+  
+}
+.head-border:before,
+.head-border:after{
+  content:"";
+  background: white;
+  height: 1px;
+  flex-grow:1;
+}
+
+.head-border:before{
+  margin-right: 1rem;
+  margin-left: 3rem;
+}
+.head-border:after{
+  margin-left: 1rem;
+  margin-right: 3rem;
+}
+.head-border{
+  display: flex;
+  align-items: center;  
+}
+
+/* main */
+main{
+  /* width: 600px; */
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+section{
+  /* align-items: center; */
+  /* display: inline-block; */
+  /* text-align: center; */
+  /* margin: 0 auto; */
+  font-size: 12px;
+  padding: 10px;
+  width: 100px;
+  height: 70px;
+  text-align: center;
+  background: #009E96;
+  border-radius: 20px;
+  color: white;
+  line-height: 70px; 
+  margin:15px ;
+  
+  box-shadow: 5PX 5PX 10PX gray;
+}
+
+.profile{
+  text-align: center;
+}
+
+/* .profile:before,
+.profile:after{
+  content:"";
+  background: white;
+  height: 1px;
+  flex-grow:1;
+}
+
+.profile:before{
+  margin-right: 1rem;
+  margin-left: 3rem;
+}
+.profile:after{
+  margin-left: 1rem;
+  margin-right: 3rem;
+}
+.profile{
+  display: flex;
+  align-items: center;  
+} */
