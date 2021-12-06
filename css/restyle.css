@@ -1,0 +1,70 @@
+*{
+	float: none;
+	position: static;
+
+    color: #3e3a39;
+    background: #d4d3d3;
+    font-family: "TazuganeGothicStdN-Book", 'Hiragino Sans', 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, sans-serif;
+    line-height: 2;
+    letter-spacing: .15em;
+    font-weight: 400;
+    font-size: 11.25px;
+    vertical-align: baseline;
+
+    
+  }
+  
+  .theme{
+    margin-left: 10px;
+    border-left: 5px solid #3e3a39;
+    padding: 0 8px;
+    margin-top: 20px;
+    
+}
+
+
+  ul SPAN{
+    writing-mode: vertical-rl;
+    /* padding-left: 12px; */
+    padding-top: 5px;
+  }
+
+  main{
+    margin-top: 20px;
+  }
+  .title_center{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+.right {
+  float: right;
+  margin-right: 15px;
+}
+
+  .left{
+    float: left;
+  }
+  
+  .profile_content {
+    display: flex;
+    /* justify-content: center; */
+  }
+  
+  .profile_content  li {
+    list-style: none;
+    position:relative;
+    right: 15px;
+    
+  }
+  .profile_content  ul {
+    border-left: #3e3a39 solid 1px;
+    margin-left: 5px;
+  }
+  
+  footer{
+    margin-top: 50px;
+  }
+
+  
