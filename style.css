@@ -15,8 +15,12 @@
   }
 
   body {
-    margin: 50px 10px;    
+    margin: 70px 10px;    
+    opacity: 0;
+    /* transform: translateY(16px); */
+    transition: all 1.5s;
   }
+
 
 
   img {
@@ -78,4 +82,8 @@
     margin-top: 50px;
   }
 
-  
+  /* js */
+  .show {
+    opacity: 1;    
+    transform: translateY(-40px);
+  }
